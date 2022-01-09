@@ -49,7 +49,7 @@ def hanoi(begin: Stack[int], end: Stack[int], tmp: Stack[int], n: int)->None:
             if item._name == 'C':
                 print(item)
         print('\n------===------\n')
-        
+
         # print(begin)
         # print(end)
         # print(tmp)
@@ -69,3 +69,4 @@ if __name__ == "__main__":
         tower_a.push(i)
 
     hanoi(tower_a, tower_c, tower_b, num_discs)
+    # chạy thuật toán bằng tay đc mô tả trong file hanoi.png
