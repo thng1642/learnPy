@@ -80,3 +80,7 @@
 #         return False
 
 # play()
+
+from sys import getsizeof
+x:int = 1
+print(bin(x))
